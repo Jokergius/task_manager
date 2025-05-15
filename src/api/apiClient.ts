@@ -1,7 +1,7 @@
 import axios from 'axios'
 
 // Константы для API
-export const API_URL = 'http://localhost:5000/api'
+export const API_URL = 'https://task-manager-backend-t69k.onrender.com'
 
 const apiClient = axios.create({
   baseURL: API_URL,
